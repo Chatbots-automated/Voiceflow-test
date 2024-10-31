@@ -8,22 +8,6 @@
 <body>
     <h1>Test Your Voiceflow Chatbot Here</h1>
     <p>Below is your chatbot in action:</p>
-<script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '6722b76dfb0d295a57c95612' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production',
-          assistant: { stylesheet: "test.css" }
-        });
-      };
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; 
-      v.type = "text/javascript"; 
-      s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
 
     <script type="text/javascript">
   (function(d, t) {
@@ -32,16 +16,12 @@
         window.voiceflow.chat.load({
           verify: { projectID: '6722b76dfb0d295a57c95612' },
           url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production',
-          assistant: { stylesheet: "test.css" }
+          versionID: 'production'
         });
-      };
-      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; 
-      v.type = "text/javascript"; 
-      s.parentNode.insertBefore(v, s);
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
   })(document, 'script');
 </script>
-
     <script type="text/javascript">
       (function(d, t) {
           var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -50,7 +30,7 @@
               verify: { projectID: '6722b76dfb0d295a57c95612' },
               url: 'https://general-runtime.voiceflow.com',
               versionID: 'production',
-              assistant: { stylesheet: "https://raw.githubusercontent.com/Chatbots-automated/Voiceflow-test/Main/style.css" } 
+              assistant: { stylesheet: "https://raw.githubusercontent.com/Chatbots-automated/Voiceflow-test/Main/style.css" } // Link to your CSS file
             });
           };
           v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; 
@@ -58,5 +38,6 @@
           s.parentNode.insertBefore(v, s);
       })(document, 'script');
     </script>
+
 </body>
 </html>
