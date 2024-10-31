@@ -1,47 +1,48 @@
-/* Dark Mode Chatbot CSS - Inspired by Night Owl Theme */
+/* Red Theme Chatbot CSS */
 
+/* Customize the page that the chat bubble lives on */
 .voiceflow-chat {
-    background-color: #011627; /* Dark background color */
-    color: #d6deeb; /* Light text color */
+    background-color: #330000; /* Dark red background color */
+    color: #ffffff; /* Light text color */
 }
 
 /* Launcher Button */
 .voiceflow-chat .vfrc-launcher {
-    background-color: #1e2a47; /* Dark button */
-    border-color: #7e9ae8;
+    background-color: #660000; /* Darker red button */
+    border-color: #ff4d4d; /* Lighter red border */
 }
 
 /* Chat Widget Header */
 .voiceflow-chat .vfrc-header {
-    background-color: #011627;
-    color: #d6deeb;
+    background-color: #330000; /* Dark red header */
+    color: #ffffff; /* White text */
 }
 .voiceflow-chat .vfrc-assistant-info--title {
-    color: #82aaff;
+    color: #ff4d4d; /* Light red title */
 }
 .voiceflow-chat .vfrc-assistant-info--description {
-    color: #a5b4cb;
+    color: #ffcccc; /* Very light red description */
 }
 
 /* Chat Messages */
 .voiceflow-chat .vfrc-system-response .vfrc-message {
-    background-color: #1d3b53;
-    color: #d6deeb;
+    background-color: #660000; /* Darker red for assistant messages */
+    color: #ffffff; /* White text */
 }
 
 .voiceflow-chat .vfrc-user-response .vfrc-message {
-    background-color: #7e57c2;
-    color: #ffffff;
+    background-color: #ff4d4d; /* Light red for user messages */
+    color: #ffffff; /* White text */
 }
 
 /* Message Input */
 .voiceflow-chat .vfrc-input {
-    background-color: #1e2a47;
-    color: #ffffff;
-    border-color: #3b5998;
+    background-color: #660000; /* Darker red for input area */
+    color: #ffffff; /* White text */
+    border-color: #ff4d4d; /* Light red border */
 }
 
 /* Timestamps and Metadata */
 .voiceflow-chat .vfrc-timestamp {
-    color: #7e9ae8;
+    color: #ffcccc; /* Very light red for timestamps */
 }
