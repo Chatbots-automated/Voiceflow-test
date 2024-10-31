@@ -1,48 +1,47 @@
 /* Dark Mode Chatbot CSS - Inspired by Night Owl Theme */
 
-/* Customize the page that the chat bubble lives on */
 .voiceflow-chat {
     background-color: #011627; /* Dark background color */
     color: #d6deeb; /* Light text color */
 }
 
 /* Launcher Button */
-.vfrc-launcher {
+.voiceflow-chat .vfrc-launcher {
     background-color: #1e2a47; /* Dark button */
     border-color: #7e9ae8;
 }
 
 /* Chat Widget Header */
-.vfrc-header {
+.voiceflow-chat .vfrc-header {
     background-color: #011627;
     color: #d6deeb;
 }
-.vfrc-assistant-info--title {
+.voiceflow-chat .vfrc-assistant-info--title {
     color: #82aaff;
 }
-.vfrc-assistant-info--description {
+.voiceflow-chat .vfrc-assistant-info--description {
     color: #a5b4cb;
 }
 
 /* Chat Messages */
-.vfrc-system-response .vfrc-message {
+.voiceflow-chat .vfrc-system-response .vfrc-message {
     background-color: #1d3b53;
     color: #d6deeb;
 }
 
-.vfrc-user-response .vfrc-message {
+.voiceflow-chat .vfrc-user-response .vfrc-message {
     background-color: #7e57c2;
     color: #ffffff;
 }
 
 /* Message Input */
-.vfrc-input {
+.voiceflow-chat .vfrc-input {
     background-color: #1e2a47;
     color: #ffffff;
     border-color: #3b5998;
 }
 
 /* Timestamps and Metadata */
-.vfrc-timestamp {
+.voiceflow-chat .vfrc-timestamp {
     color: #7e9ae8;
 }
