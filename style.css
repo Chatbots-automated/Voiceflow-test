@@ -1,13 +1,12 @@
 /* Set the body background with your uploaded robot image */
 body {
-    background-image: url('https://raw.githubusercontent.com/Chatbots-automated/Voiceflow-test/refs/heads/Main/human-robot-hands-reaching-out-each-other-black-background-technology-meets-humanity-background-modern-human-hand-catching-robot-hand-ai-generated_538213-7843.avif
+    background-image: url('https://raw.githubusercontent.com/Chatbots-automated/Voiceflow-test/refs/heads/Main/human-robot-hands-reaching-out-each-other-black-background-technology-meets-humanity-background-modern-human-hand-catching-robot-hand-ai-generated_538213-7843.avif'); /* Background image */
     background-size: cover; /* Ensures the image covers the whole background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     color: #ffffff; /* Set default text color to white for visibility */
 }
 
-https://raw.githubusercontent.com/Chatbots-automated/Voiceflow-test/refs/heads/Main/human-robot-hands-reaching-out-each-other-black-background-technology-meets-humanity-background-modern-human-hand-catching-robot-hand-ai-generated_538213-7843.avif
 /* Red Theme Chatbot CSS */
 
 /* Customize the page that the chat bubble lives on */
